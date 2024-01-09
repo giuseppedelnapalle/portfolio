@@ -41,3 +41,18 @@
 ![fib_pan_imm_lr)](img//intercellular_ppi_inference/fib_pan_imm_lr.jpg)
 
 **Figure 2**. Upregualted ligand-receptor interactions between fibroblasts and pan-immune cells in lung adenocarcinoma.
+
+## [Project 4: Exploratory data analysis of the Tabular Sapiens dataset](https://github.com/giuseppedelnapalle/Tabular_Sapienes_EDA)
+* Evaluated the data quality of the Tabular Sapiens dataset and identified its primary patterns using the Scanpy Python package.
+* Data quality of the dataset was assessed by investigating four quality control metrics, including the number of unique genes in a cell, the total number of molecules in a cell, the percentage of mitochondrial genes expressed, and the percentage of ribosomal protein genes expressed.
+* Linear dimensional reduction, clustering, and non-linear dimensional reduction were performed to discover the key characteristics and local relationships of the cells in the dataset.
+
+![qc_ts](img/ts_eda/qc_ts.jpg)
+
+**Figure 1**. Quality control of the Tabular Sapiens dataset.
+
+![dim_red_ts](img/ts_eda/dim_red_ts.jpg)
+
+**Figure 2**. Low-dimensional representations of the cells in the Tabular Sapiens dataset.
+
+[More exciting projects coming soon.](https://github.com/giuseppedelnapalle?tab=repositories)

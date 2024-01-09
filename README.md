@@ -25,3 +25,19 @@
 * Effective for diverse data analysis scenarios using the comprehensive human scRNA-seq dataset.
 
 ![hist_n_genes_TS_shiny_screenshot)](img/hist_n_genes_ts_shiny/hist_n_genes_TS_shiny.png)
+
+## [Project 3: Inferring intercellular protein-protein interactions from deconvoluted bulk RNA-seq data](https://github.com/giuseppedelnapalle/intercellular_PPI_inference)
+* Developed three methods to quantify intercellular protein-protein interactions (PPIs) from deconvoluted bulk RNA-seq data.
+* Method 1 primarily calculates the mean ligand receptor expression value of two cell types in each bulk RNA-seq sample.
+* Method 2 calculates the product of ligand and receptor expression values between cell types.
+* Method 3 is derived from method 2 and defines the regularised product as sqrt(l\*r) / (mu+sqrt(l\*r)), where mu denotes the mean of the combined expression matrix.
+* Built a pipeline to preprocess RNA-seq data, perform RNA-seq deconvolution using CIBERSORTx, estimate PPIs, and display the results.
+* Python and R were used in the project.
+
+![heatmap_lr_product_fib_pan_immune)](img//intercellular_ppi_inference/Heatmap_lr_product_fibroblast_pan_immune_padj.05logfc.3.jpg)
+
+**Figure 1**. Ligand-receptor interactions between fibroblasts and pan-immune cells in lung adenocarcinoma estimated by the ligand-receptor product method.
+
+![fib_pan_imm_lr)](img//intercellular_ppi_inference/fib_pan_imm_lr.jpg)
+
+**Figure 2**. Upregualted ligand-receptor interactions between fibroblasts and pan-immune cells in lung adenocarcinoma.

@@ -17,3 +17,11 @@
 ![violin_box_bt346_trg_nfkb](img/scmrgss/violin_box_plot_BT346.filtered_Mesenchymal_fetal_brain_tRG_ctx_dev_tRG_BIOCARTA_NFKB_PATHWAY_mdf.jpg)
 
 **Figure 2**. NF-κB pathway activity of mesenchymal glioblastoma cancer cells in sample BT346 and truncated radial glia (tRG) from two fetal brain development datasets estimated by scMRGSS.
+
+## [Project 2: Histogram Shiny app for exploration of the Tabular Sapiens scRNA-seq dataset](https://takashisuzuki.shinyapps.io/hist_ts_shiny/)
+* Created an interactive histogram of the number of genes of selected cells in the Tabular Sapiens dataset using Shiny.
+* Using the Scanpy Python package, cell meta data was extracted from the H5AD file containing the dataset.
+* The Shiny app simplifies the exploration of the distribution of the number of genes in cells of interest in an interactive way.
+* Effective for diverse data analysis scenarios using the comprehensive human scRNA-seq dataset.
+
+![hist_n_genes_TS_shiny_screenshot)](img/hist_n_genes_ts_shiny/hist_n_genes_TS_shiny.png)
